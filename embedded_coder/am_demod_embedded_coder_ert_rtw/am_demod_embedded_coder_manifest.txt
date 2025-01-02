@@ -1,0 +1,14 @@
+This file is the manifest for the generated code from model 'am_demod_embedded_coder'.
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/am_demod_embedded_coder.c
+/home/caccolillo/matlab_2021b/rtw/c/src/common/rt_main.c
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/am_demod_embedded_coder.h
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/am_demod_embedded_coder_private.h
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/am_demod_embedded_coder_types.h
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/rtmodel.h
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/rtwtypes.h
+/home/caccolillo/matlab_2021b/rtw/c/src/ext_mode/common/ext_work.h
+/home/caccolillo/matlab_2021b/rtw/c/src/rt_logging.h
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/defines.txt
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/html
+/home/caccolillo/Documents/model_composer_am_demod_v6/am_demod_embedded_coder_ert_rtw/am_demod_embedded_coder_manifest.txt
