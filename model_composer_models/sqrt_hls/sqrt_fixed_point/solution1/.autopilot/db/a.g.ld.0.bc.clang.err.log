@@ -1,0 +1,1 @@
+remark: fxp_sqrt_top.cpp:20:0: Inlining function 'void fxp_sqrt<28, 4, 24, 8>(ap_ufixed<28, 4, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<24, 8, (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'fxp_sqrt_top(ap_ufixed<24, 8, (ap_q_mode)5, (ap_o_mode)3, 0>&)'

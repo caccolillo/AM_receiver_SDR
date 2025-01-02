@@ -1,0 +1,8 @@
+INFO-XMC-1005: Model Composer v2022.2 build 3671981 on Fri Oct 14 05:05:15 MDT 2022
+INFO-XMC-1008: Starting generation of target: IP Catalog at 11:53:50 ...
+ERROR-XMC-3040: License checkout for Model Composer failed. Cannot perform code generation. 
+A license was searched using:
+ XILINXD_LICENSE_FILE = /home/caccolillo/Xilinx_2022_2/Vivado/2022.2/data/sysgen/hwcosim_compiler/pp_ethernet
+ Environment variable LM_LICENSE_FILE is not set.
+ License search path: /home/caccolillo/.Xilinx:/home/caccolillo/Xilinx_2022_2/Vivado/2022.2/data/sysgen/hwcosim_compiler/pp_ethernet:/home/caccolillo/Xilinx_2022_2/Vivado/2022.2/data/ip/core_licenses
+

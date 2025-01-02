@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fxp_sqrt.h" path="/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/fxp_sqrt.h"/>
+    <originFiles name="fxp_sqrt_top.cpp" path="/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/fxp_sqrt_top.cpp"/>
+    <originFiles name="fxp_sqrt_top.h" path="/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/fxp_sqrt_top.h"/>
+  </source>
+  <testbench>
+    <originFiles name="fxp_sqrt_test.cpp" path="/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/fxp_sqrt_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

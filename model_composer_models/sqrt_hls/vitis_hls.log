@@ -1,0 +1,47 @@
+INFO: [HLS 200-10] Running '/home/caccolillo/Xilinx_2022_2/Vitis_HLS/2022.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'caccolillo' on host 'caccolillo-OMEN-25L-Desktop-GT12-1xxx' (Linux_x86_64 version 5.15.0-127-generic) on Sat Dec 28 19:07:19 GMT 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls'
+Sourcing Tcl script '/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/sqrt_fixed_point/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source /home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/sqrt_fixed_point/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project sqrt_fixed_point 
+INFO: [HLS 200-10] Opening project '/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/sqrt_fixed_point'.
+INFO: [HLS 200-1510] Running: set_top fxp_sqrt_top 
+INFO: [HLS 200-1510] Running: add_files fxp_sqrt.h 
+INFO: [HLS 200-10] Adding design file 'fxp_sqrt.h' to the project
+INFO: [HLS 200-1510] Running: add_files fxp_sqrt_top.cpp 
+INFO: [HLS 200-10] Adding design file 'fxp_sqrt_top.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files fxp_sqrt_top.h 
+INFO: [HLS 200-10] Adding design file 'fxp_sqrt_top.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb fxp_sqrt_test.cpp 
+INFO: [HLS 200-10] Adding test bench file 'fxp_sqrt_test.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls/sqrt_fixed_point/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a35ti-csg324-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=sysgen
+INFO: [HLS 200-1464] Running solution command: config_export -output=/home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls
+INFO: [HLS 200-1510] Running: set_part xc7a35ticsg324-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format sysgen -output /home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format sysgen -output /home/caccolillo/Documents/model_composer_am_demod/model_composer_models/sqrt_hls 
+Running Dispatch Server on port: 45507
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1783.699 ; gain = 86.023 ; free physical = 164 ; free virtual = 34801
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/caccolillo/Xilinx_2022_2/Vivado/2022.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 28 19:08:23 2024...
+INFO: [HLS 200-802] Generated output file export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 10.04 seconds. CPU system time: 2.16 seconds. Elapsed time: 54.69 seconds; current allocated memory: 5.680 MB.
+INFO: [HLS 200-112] Total CPU user time: 12.31 seconds. Total CPU system time: 2.99 seconds. Total elapsed time: 73.1 seconds; peak allocated memory: 762.926 MB.

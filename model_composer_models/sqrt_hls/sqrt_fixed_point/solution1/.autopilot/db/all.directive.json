@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "fxp_sqrt_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/caccolillo\/Documents\/model_composer_am_demod\/model_composer_models\/sqrt_hls\/sqrt_fixed_point\/solution1\/csynth.tcl",
+          "sourceLine": "16",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "fxp_sqrt_top"
+              }]
+          }
+        }]
+    }]}
