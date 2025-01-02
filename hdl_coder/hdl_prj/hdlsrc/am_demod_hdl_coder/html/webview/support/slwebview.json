@@ -1,0 +1,27 @@
+{
+ "baseUrl":"support/slwebview_files",
+ "homeHid":2,
+ "initialElement":"",
+ "sections":[
+  {
+   "hid":1,
+   "sid":"am_demod_hdl_coder",
+   "name":"am_demod_hdl_coder",
+   "fullname":"am_demod_hdl_coder",
+   "label":"am_demod_hdl_coder*",
+   "parent":0,
+   "descendants":[
+    2,
+    3
+   ],
+   "hierarchyUrl":"support/slwebview_files/am_demod_hdl_coder_h_1.json",
+   "backingUrl":"support/slwebview_files/am_demod_hdl_coder_m.json"
+  }
+ ],
+ "optViews":[
+ ],
+ "display":{
+  "informer":false
+ },
+ "iconsUrl":"support/slwebview_files/am_demod_hdl_coder_71_icons.css"
+}

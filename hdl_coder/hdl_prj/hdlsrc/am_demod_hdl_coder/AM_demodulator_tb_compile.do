@@ -1,0 +1,11 @@
+vlib work
+vmap -c
+vcom  nfp_gain_pow2_double.vhd
+vcom  nfp_sub_double.vhd
+vcom  nfp_add_double.vhd
+vcom  nfp_mul_double.vhd
+vcom  LPF.vhd
+vcom  nfp_sqrt_double.vhd
+vcom  AM_demodulator.vhd
+vcom  AM_demodulator_tb_pkg.vhd
+vcom  AM_demodulator_tb.vhd

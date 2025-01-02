@@ -1,0 +1,7 @@
+am_demod_hdl_coder/AM demodulator/nfp_gain_pow2_double --> nfp_gain_pow2_double
+am_demod_hdl_coder/AM demodulator/nfp_sub_double --> nfp_sub_double
+am_demod_hdl_coder/AM demodulator/LPF/nfp_add_double --> nfp_add_double
+am_demod_hdl_coder/AM demodulator/nfp_mul_double --> nfp_mul_double
+am_demod_hdl_coder/AM demodulator/LPF --> LPF
+am_demod_hdl_coder/AM demodulator/nfp_sqrt_double --> nfp_sqrt_double
+am_demod_hdl_coder/AM demodulator --> AM_demodulator
