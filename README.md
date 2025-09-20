@@ -1,11 +1,9 @@
 # AM_receiver_SDR Repository Analysis
 
-*Repository: https://github.com/caccolillo/AM_receiver_SDR*  
-*Analysis Date: September 20, 2025*
 
 ## Project Overview
 
-The **caccolillo/AM_receiver_SDR** repository contains a square law demodulation circuit for AM signals, made by using model based design techniques. The project demonstrates a comprehensive model-based design workflow for implementing an Amplitude Modulation (AM) receiver using Software Defined Radio (SDR) principles.
+The repository contains a square law demodulation circuit for AM signals, made by using model based design techniques. The project demonstrates a comprehensive model-based design workflow for implementing an Amplitude Modulation (AM) receiver using Software Defined Radio (SDR) principles.
 
 ## Repository Structure and Content
 
@@ -15,10 +13,10 @@ The repository is organized into seven main folders, each representing a differe
 Contains the fixed point simulink model golden reference model - this serves as the baseline reference implementation that other versions are compared against.
 
 ### 2. audio
-Contains the input audio files to be modulated - these are likely test audio signals used to validate the AM receiver's performance.
+Contains the input audio files to be modulated, used to validate the AM receiver's performance.
 
 ### 3. references
-Contains the referenced used as a starting point for the model - this probably includes academic papers, technical specifications, or existing implementations that informed the design.
+Contains the references used as a starting point for the model.
 
 ### 4. fixed_point_designer
 Contains the model converted in fixed point arithmetic - this represents the transition from floating-point to fixed-point implementation, crucial for hardware deployment where computational resources are limited.
@@ -30,7 +28,7 @@ Contains the C code automatically generated with embedded coder - this shows the
 Contains the VHDL code automatically generated with HDL coder - this represents the hardware description language implementation suitable for FPGA deployment.
 
 ### 7. model_composer_models
-Contains the model created with Xilinx model composer - this likely shows integration with Xilinx's development environment for FPGA implementation.
+Contains the model created with Xilinx model composer, this shows integration with Xilinx's development environment for FPGA implementation.
 
 ## Technical Approach
 
@@ -67,7 +65,7 @@ The repository includes a **README.pdf** file which is a short report describing
 
 ## Educational and Professional Value
 
-This repository serves as an excellent example of:
+This repository serves as an example of:
 
 ### SDR Implementation
 - Practical software-defined radio receiver design
@@ -88,25 +86,7 @@ This repository serves as an excellent example of:
 - Golden model approach for reference comparison
 - Multi-target validation across different implementations
 - Systematic testing with audio input files
-
-## Target Audiences
-
-### Students and Educators
-- Digital Signal Processing coursework
-- SDR and communications system design
-- Model-based design methodologies
-- FPGA development workflows
-
-### Professional Engineers
-- Reference implementation for AM receiver design
-- Best practices in model-based development
-- Code generation and deployment strategies
-- Hardware-software co-design examples
-
-### Researchers
-- Baseline implementation for comparative studies
-- Starting point for enhanced AM demodulation techniques
-- Model-based design workflow optimization
+ optimization
 
 ## Key Takeaways
 
